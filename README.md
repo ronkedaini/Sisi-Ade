@@ -56,7 +56,7 @@
             const message = `Order ID: ${orderID}%0APhone: ${phoneNumber}%0AEmail: ${email}%0AAddress: ${address}%0AOrder Details: ${orderDetails}%0APayment Status: ${paymentStatus}`;
 
             document.getElementById('order-id').textContent = orderID;
-            document.getElementById('whatsapp-link').href = `https://wa.me/971568531596?text=${message}`;
+            document.getElementById('whatsapp-link').href = `https://wa.me/971554507252?text=${message}`;
             document.getElementById('order-form').reset();
         }
     </script>
@@ -103,7 +103,7 @@
         </form>
         <p class="text-center mt-4">
             Your Order ID: <span id="order-id"></span><br>
-            <a id="whatsapp-link" href="#" target="_blank" class="text-success">Click here to send your order via WhatsApp</a>
+            <a id="whatsapp-link" href="#" target="_blank" class="text-success">Click here to send your order via WhatsApp and attach payment receipt</a>
         </p>
         <p class="text-center">Pay to Test bank, Account name is Adeoti, account number is 123456789.</p>
         <p class="text-center">Note: You can place orders between 8am and 12pm. Delivery will be from 2pm onwards.</p>
