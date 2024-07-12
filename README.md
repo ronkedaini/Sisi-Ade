@@ -21,6 +21,9 @@
             text-align: center;
             margin-bottom: 20px;
         }
+        .food-item {
+            margin-bottom: 20px;
+        }
         .food-images img {
             width: 200px;
             height: auto;
@@ -56,7 +59,7 @@
             const message = `Order ID: ${orderID}%0APhone: ${phoneNumber}%0AEmail: ${email}%0AAddress: ${address}%0AOrder Details: ${orderDetails}%0APayment Status: ${paymentStatus}`;
 
             document.getElementById('order-id').textContent = orderID;
-            document.getElementById('whatsapp-link').href = `https://wa.me/971554507252?text=${message}`;
+            document.getElementById('whatsapp-link').href = `https://wa.me/2348053773962?text=${message}`;
             document.getElementById('order-form').reset();
         }
     </script>
@@ -65,17 +68,21 @@
     <div class="container mt-5">
         <h1 class="text-center text-warning">Complete the form to order your African dishes</h1>
         <div class="row mb-4 text-center food-images">
-            <div class="col">
+            <div class="col food-item">
                 <img src="https://c.ndtvimg.com/2020-06/4v9oqcn_jollof-rice_625x300_15_June_20.jpg" alt="Nigerian Jollof Rice" class="img-fluid rounded">
+                <p>Nigerian Jollof Rice</p>
             </div>
-            <div class="col">
+            <div class="col food-item">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTol7StrFPD-HxZUOnZ3uSUfrWShUPhhLOsdg&s" alt="Ghanaian Jollof Rice" class="img-fluid rounded">
+                <p>Ghanaian Jollof Rice</p>
             </div>
-            <div class="col">
+            <div class="col food-item">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsH8WHCSBvBWhXvj95zDayI8lVdlNZgPjFIQ&s" alt="Fried Rice" class="img-fluid rounded">
+                <p>Fried Rice</p>
             </div>
-            <div class="col">
+            <div class="col food-item">
                 <img src="https://i.ytimg.com/vi/LnfeYXsFi2Y/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDNZcmWUDIJXTfzqmoQKzA_qzS_BQ" alt="Yam with Egg Sauce" class="img-fluid rounded">
+                <p>Yam with Egg Sauce</p>
             </div>
         </div>
         <form id="order-form" onsubmit="handleSubmit(event)">
