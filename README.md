@@ -66,7 +66,7 @@
         <h1 class="text-center text-warning">Complete the form to order your African dishes</h1>
         <div class="row mb-4 text-center food-images">
             <div class="col">
-                <img src="https://drive.google.com/uc?export=view&id=1f-4LbcTB63_IsiRuwomTo8lAmCF5bXwT" alt="Nigerian Jollof Rice" class="img-fluid rounded">
+                <img src="https://c.ndtvimg.com/2020-06/4v9oqcn_jollof-rice_625x300_15_June_20.jpg" alt="Nigerian Jollof Rice" class="img-fluid rounded">
             </div>
             <div class="col">
                 <img src="https://drive.google.com/uc?export=view&id=1R18MH3Lsm4URurXhFhMbbqHluQBycq7y" alt="Ghanaian Jollof Rice" class="img-fluid rounded">
