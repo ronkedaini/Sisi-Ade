@@ -29,11 +29,14 @@
         }
         .watermark {
             position: absolute;
-            bottom: 10px;
-            right: 10px;
-            font-size: 18px;
-            color: #ff6600;
-            opacity: 0.5;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 80px;
+            color: lightgrey;
+            opacity: 0.3;
+            white-space: nowrap;
+            z-index: -1;
         }
     </style>
     <script>
