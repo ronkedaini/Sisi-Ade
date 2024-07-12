@@ -69,13 +69,13 @@
                 <img src="https://c.ndtvimg.com/2020-06/4v9oqcn_jollof-rice_625x300_15_June_20.jpg" alt="Nigerian Jollof Rice" class="img-fluid rounded">
             </div>
             <div class="col">
-                <img src="https://drive.google.com/uc?export=view&id=1R18MH3Lsm4URurXhFhMbbqHluQBycq7y" alt="Ghanaian Jollof Rice" class="img-fluid rounded">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTol7StrFPD-HxZUOnZ3uSUfrWShUPhhLOsdg&s" alt="Ghanaian Jollof Rice" class="img-fluid rounded">
             </div>
             <div class="col">
-                <img src="https://drive.google.com/uc?export=view&id=1YjyZ_Pxso-1LXk_P-mYwDhCfosf__-KX" alt="Fried Rice" class="img-fluid rounded">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsH8WHCSBvBWhXvj95zDayI8lVdlNZgPjFIQ&s" alt="Fried Rice" class="img-fluid rounded">
             </div>
             <div class="col">
-                <img src="https://drive.google.com/uc?export=view&id=1e0dqNWeWCC2WRyS-xSMYJiy8ZVVCvDCR" alt="Yam with Egg Sauce" class="img-fluid rounded">
+                <img src="https://i.ytimg.com/vi/LnfeYXsFi2Y/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDNZcmWUDIJXTfzqmoQKzA_qzS_BQ" alt="Yam with Egg Sauce" class="img-fluid rounded">
             </div>
         </div>
         <form id="order-form" onsubmit="handleSubmit(event)">
