@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -46,7 +45,7 @@
 <body>
     <div class="container mt-5">
         <h1 class="text-center text-warning">Order Your Jollof Rice</h1>
-        <div class="row mb-4 text-center">
+        <div class="row mb-4 text-center food-images">
             <div class="col">
                 <img src="https://drive.google.com/uc?export=view&id=1f-4LbcTB63_IsiRuwomTo8lAmCF5bXwT" alt="Nigerian Jollof Rice" class="img-fluid rounded">
             </div>
