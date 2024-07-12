@@ -9,6 +9,13 @@
             font-family: Arial, sans-serif;
             background-color: #f5f5f5;
             color: #333;
+            position: relative;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         .food-images {
             text-align: center;
@@ -19,6 +26,14 @@
             height: auto;
             margin: 0 10px;
             border-radius: 8px;
+        }
+        .watermark {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            font-size: 18px;
+            color: #ff6600;
+            opacity: 0.5;
         }
     </style>
     <script>
@@ -33,8 +48,9 @@
             const email = document.getElementById('email').value;
             const address = document.getElementById('address').value;
             const orderDetails = document.getElementById('order-details').value;
+            const paymentStatus = document.getElementById('payment-status').checked ? 'Paid' : 'Not Paid';
 
-            const message = `Order ID: ${orderID}%0APhone: ${phoneNumber}%0AEmail: ${email}%0AAddress: ${address}%0AOrder Details: ${orderDetails}`;
+            const message = `Order ID: ${orderID}%0APhone: ${phoneNumber}%0AEmail: ${email}%0AAddress: ${address}%0AOrder Details: ${orderDetails}%0APayment Status: ${paymentStatus}`;
 
             document.getElementById('order-id').textContent = orderID;
             document.getElementById('whatsapp-link').href = `https://wa.me/971568531596?text=${message}`;
@@ -44,7 +60,7 @@
 </head>
 <body>
     <div class="container mt-5">
-        <h1 class="text-center text-warning">Order Your Jollof Rice</h1>
+        <h1 class="text-center text-warning">Complete the form to order your African dishes</h1>
         <div class="row mb-4 text-center food-images">
             <div class="col">
                 <img src="https://drive.google.com/uc?export=view&id=1f-4LbcTB63_IsiRuwomTo8lAmCF5bXwT" alt="Nigerian Jollof Rice" class="img-fluid rounded">
@@ -76,13 +92,19 @@
                 <label for="order-details">Order Details:</label>
                 <textarea id="order-details" name="order-details" class="form-control" required placeholder="Specify Nigerian or Ghanaian Jollof Rice, quantity, etc."></textarea>
             </div>
+            <div class="form-group form-check">
+                <input type="checkbox" id="payment-status" name="payment-status" class="form-check-input">
+                <label for="payment-status" class="form-check-label">I have paid</label>
+            </div>
             <button type="submit" class="btn btn-warning btn-block">Place Order</button>
         </form>
         <p class="text-center mt-4">
             Your Order ID: <span id="order-id"></span><br>
             <a id="whatsapp-link" href="#" target="_blank" class="text-success">Click here to send your order via WhatsApp</a>
         </p>
+        <p class="text-center">Pay to Test bank, Account name is Adeoti, account number is 123456789.</p>
         <p class="text-center">Note: You can place orders between 8am and 12pm. Delivery will be from 2pm onwards.</p>
     </div>
+    <div class="watermark">Sisi Ade's Kitchen</div>
 </body>
 </html>
