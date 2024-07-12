@@ -92,8 +92,8 @@
     <div class="container">
         <h1>Order Your Jollof Rice</h1>
         <div class="food-images">
-            <img src="nigerian-jollof.jpg" alt="Nigerian Jollof Rice">
-            <img src="ghanaian-jollof.jpg" alt="Ghanaian Jollof Rice">
+            <img src=" https://drive.google.com/file/d/1f-4LbcTB63_IsiRuwomTo8lAmCF5bXwT/view?usp=sharing" alt="Nigerian Jollof Rice">
+            <img src=" https://drive.google.com/file/d/1R18MH3Lsm4URurXhFhMbbqHluQBycq7y/view?usp=sharing" alt="Ghanaian Jollof Rice">
         </div>
         <form id="order-form" onsubmit="handleSubmit(event)">
             <label for="phone">Phone Number:</label>
@@ -118,3 +118,4 @@
     </div>
 </body>
 </html>
+![image](https://github.com/user-attachments/assets/eba3e48e-7e32-4b8b-87b0-9aeda32033e9)
